@@ -1,0 +1,18 @@
+$('number').keyup(function() {  
+        var their_input = $(this).val();
+        var firstInput = output_element.text(their_input);
+
+
+    });
+     $('number').keyup(function() {  
+        var their_input1 = $(this).val();
+        var firstInput1 = output_element1.text(their_input1);
+
+
+    });
+
+    var output_total = $('#total');
+
+    var total = firstInput + firstInput1;
+
+   output_total.text(total);
